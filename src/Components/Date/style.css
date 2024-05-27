@@ -1,0 +1,35 @@
+.date {
+  width: 100%;
+  height: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.date h3 {
+  color: #263238;
+  font-weight: 500;
+  font-size: 18px;
+}
+.date .date-box button {
+  font-size: 20px;
+  width: 75px;
+  height: 35px;
+  padding: 5px;
+  background-color: #e1f1ff;
+  margin-right: 5px;
+  margin-top: 10px;
+  margin-bottom: -0px;
+  margin-left: 5px;
+  color: #575757;
+  border: none;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.date .date-box button:active {
+  transform: scale(0.9);
+  transition: 0.5s;
+}
+.date .date-box button:hover,
+.date .date-box .active {
+  background-color: #42b2fc;
+  color: #fff;
+}
